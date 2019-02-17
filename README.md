@@ -1,5 +1,5 @@
 # Keyboard Hotkey Scripts
-You need to paste these script inside your Linux Distro's keyboard hotkeys settings like a command.<br>
+You need to paste these scripts inside your Linux Distro's keyboard hotkeys settings like a command.<br>
 Then maybe you need to terminate your session and login again.
 
 ### Open (or set on top) Telegram's Chromium's app.
