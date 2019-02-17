@@ -2,7 +2,7 @@
 You need to paste these scripts inside your Linux Distro's keyboard hotkeys settings like a command.<br>
 Then maybe you need to terminate your session and login again.
 
-### Open (or set on top) Telegram's Chromium's app.
+### Open (or set on top) Telegram Chromium's app.
 Maybe you need to change "notific" with your translation of "notications" and "notification"
 ```bash
 bash -c "a=`wmctrl -l | grep 'Telegram\|notific' | awk '{print $1}'`; if [ -z \$a ]; then chromium-browser --app-id=hadgilakbfohcfcgfbioeeehgpkopaga; else wmctrl -a \$a -i; fi"
