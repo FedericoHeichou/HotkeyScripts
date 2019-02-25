@@ -13,7 +13,7 @@ bash -c "a=`wmctrl -l | grep 'Telegram\|notific' | awk '{print $1}'`; if [ -z \$
 sh -c 'sleep 1.0; xdotool type "$(xclip -o -selection clipboard)"'
 ```
 
-### For mouse (using .xbindkeysrc of xbindkey package)
+### For mouse (using .xbindkeysrc of xbindkeys package)
 ```bash
 "xdotool key ctrl+alt+Right"
   b:8
